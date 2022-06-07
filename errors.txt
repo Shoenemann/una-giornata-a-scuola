@@ -1,0 +1,10 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/script.rpy", line 428: end of line expected.
+    hide screen letteraH2()
+                         ^
+
+Ren'Py Version: Ren'Py 7.4.11.2266
+Thu Jun  2 07:10:07 2022

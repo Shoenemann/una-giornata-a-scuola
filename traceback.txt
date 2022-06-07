@@ -1,0 +1,32 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 421, in script
+    show screen letteraHH
+  File "renpy/common/000statements.rpy", line 548, in execute_show_screen
+    renpy.show_screen(name, *args, **kwargs)
+Exception: Screen letteraHH is not known.
+
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 421, in script
+    show screen letteraHH
+  File "renpy/ast.py", line 2015, in execute
+    self.call("execute")
+  File "renpy/ast.py", line 2003, in call
+    return renpy.statements.call(method, parsed, *args, **kwargs)
+  File "renpy/statements.py", line 278, in call
+    return method(parsed, *args, **kwargs)
+  File "renpy/common/000statements.rpy", line 548, in execute_show_screen
+    renpy.show_screen(name, *args, **kwargs)
+  File "renpy/display/screen.py", line 1131, in show_screen
+    raise Exception("Screen %s is not known.\n" % (name[0],))
+Exception: Screen letteraHH is not known.
+
+
+Windows-10-10.0.19041
+Ren'Py 7.4.11.2266
+Una giornata a scuola 1.0
+Thu Jun  2 07:20:57 2022
